@@ -1,0 +1,56 @@
+.board-list-container {
+    padding: 20px;
+  }
+  
+  .board-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .board-card {
+    width: 200px;
+    height: 150px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .board-card h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .board-card p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .board-card .members {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .board-card .member {
+    background: #B39DDB;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-left: 5px;
+  }
+  
+  .board-card.add-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #BDBDBD;
+    border: 2px dashed #BDBDBD;
+  }
+  

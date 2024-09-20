@@ -1,0 +1,22 @@
+.task-card {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-content p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .task-content small {
+    font-size: 12px;
+    color: #616161;
+  }
+  

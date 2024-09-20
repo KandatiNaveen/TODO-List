@@ -1,0 +1,89 @@
+form {
+    max-width: 600px;
+    margin: 40px auto; /* Increase margin for better spacing */
+    padding: 30px; /* Increase padding for a better look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Increase shadow for depth */
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+input, textarea, select, button, h2 {
+    width: 100%;
+    margin-bottom: 15px; /* Increased spacing */
+}
+
+input[type="text"], textarea, select {
+    padding: 15px; /* Increased padding for a larger input area */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px; /* Larger font size for better readability */
+    box-sizing: border-box; /* Prevent padding from affecting width */
+}
+
+/* Placeholder styling */
+input::placeholder, textarea::placeholder {
+    font-size: 16px; /* Larger placeholder text */
+    color: #aaa; /* Subtle color for the placeholder */
+}
+
+button {
+    padding: 12px 20px; /* Increase padding */
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s ease; /* Add hover effect */
+}
+
+button[type="button"] {
+    background-color: #555;
+    margin-bottom: 20px; /* Separate the buttons */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: darkgreen; /* Change color on hover */
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px; /* Larger font size for heading */
+    margin-bottom: 20px; /* More space below heading */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    input[type="text"], textarea, select, button, h2 {
+        font-size: 14px; /* Slightly smaller text on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        max-width: 90%; /* Use almost full width on very small screens */
+        padding: 15px; /* Reduce padding further */
+    }
+
+    h2 {
+        font-size: 20px; /* Adjust heading size */
+    }
+
+    button, input, textarea, select {
+        font-size: 14px; /* Smaller text for small screens */
+    }
+}
+/* General styles for all input placeholders */
+input::placeholder, textarea::placeholder {
+    font-size: 16px; /* Default placeholder size */
+    color: #aaa; /* Placeholder color */
+}
+
+/* Specific styles for the "title" input placeholder */
+

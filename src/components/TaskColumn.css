@@ -1,0 +1,18 @@
+.task-column {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .task-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  

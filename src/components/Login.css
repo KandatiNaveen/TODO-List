@@ -1,0 +1,24 @@
+.login-container {
+  display: flex;
+  justify-content: auto;
+  align-items: auto;
+  }
+  
+  .login-form {
+    width: 25%;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+  }
+
+  input[type="text"] , input[type="password"] {
+    height: 30px;
+    width: 100%;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
